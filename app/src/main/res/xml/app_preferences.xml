@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <EditTextPreference
+            android:title="NoteBook Title"
+            android:summary="the title that will be used on the main action bar."
+            android:key="title"
+            android:defaultValue="NoteBook"
+            >
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Color">
+
+        <CheckBoxPreference
+            android:title="Dark background"
+            android:key="background_color"
+            android:defaultValue="false"
+            >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
